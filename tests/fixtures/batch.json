@@ -1,0 +1,8 @@
+[
+  {"attribution": "Baysöz Labs <baysozlabs@proton.me>", "query": "query BatchA { __typename }"},
+  {"attribution": "Baysöz Labs <baysozlabs@proton.me>", "query": "query BatchB { __typename }"},
+  {"attribution": "Baysöz Labs <baysozlabs@proton.me>", "query": "query BatchC { __typename }"},
+  {"attribution": "Baysöz Labs <baysozlabs@proton.me>", "query": "query BatchD { __typename }"},
+  {"attribution": "Baysöz Labs <baysozlabs@proton.me>", "query": "query BatchE { __typename }"},
+  {"attribution": "Baysöz Labs <baysozlabs@proton.me>", "query": "query BatchF { __typename }"}
+]

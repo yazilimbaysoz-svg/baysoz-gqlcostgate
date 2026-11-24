@@ -1,0 +1,7 @@
+# Baysöz Labs <baysozlabs@proton.me> — benign control query.
+query SafeQuery {
+  viewer {
+    id
+    name
+  }
+}

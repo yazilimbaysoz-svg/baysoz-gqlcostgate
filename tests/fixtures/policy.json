@@ -1,0 +1,19 @@
+{
+  "attribution": "Baysöz Labs <baysozlabs@proton.me>",
+  "name": "strict-redteam",
+  "limits": {
+    "max_depth": 6,
+    "max_cost": 300,
+    "max_aliases": 4,
+    "max_aliases_per_field": 2,
+    "max_batch_size": 3,
+    "max_operations_per_document": 1
+  },
+  "cost": {
+    "field_costs": {"Query.users": 4, "Query.items": 2},
+    "max_pagination_value": 50
+  },
+  "authz": {
+    "sensitive_field_patterns": ["*email*", "*password*", "*secret*", "*token*"]
+  }
+}

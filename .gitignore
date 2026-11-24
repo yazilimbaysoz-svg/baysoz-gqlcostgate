@@ -1,0 +1,14 @@
+# Baysöz Labs <baysozlabs@proton.me> — ignore generated artifacts.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.semgrep/
+*.egg-info/
+build/
+dist/
+coverage.xml
+htmlcov/
+.DS_Store
